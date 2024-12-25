@@ -9,6 +9,6 @@
     "skipLibCheck": true,
     "outDir": "dist"
   },
-  "include": ["src/**/*.ts", "src/**/*.js", ".eslintrc.js"],
+  "include": ["src/**/*.ts", "__tests__/**/*", "src/**/*.js", ".eslintrc.js", "service/**/*"],
   "exclude": ["node_modules", "dist"]
 }
